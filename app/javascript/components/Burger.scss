@@ -1,0 +1,41 @@
+.Burger {
+  button {
+    width: 130px;
+    height: 70px;
+    vertical-align: middle;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  .controls {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .render-burger {
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    img {
+      max-height: 100px;
+      position: relative;
+    }
+    .bunTop {
+      top: 20px;
+      margin-top: -20px;
+    }
+    .cheese {
+      top: 37px;
+      margin-top: -56px;
+    }
+    .tomatoes {
+      top: 30px;
+      margin-top: -36px;
+    }
+    .bunBottom {
+      margin-top: -18px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<h1>we're here!</h1>
+
+<div id='root'></div>
+<%= javascript_pack_tag 'react_burger', 'data-turbolinks-track': 'reload' %>
+
+<% if logged_in? %>
+  <div>You can only see this because you are logged in</div>
+  <%= form_with url: '/sessions', method: 'delete' do %>
+    <%= submit_tag 'Log out' %>
+  <% end %>
+<% end %>
